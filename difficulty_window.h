@@ -1,4 +1,4 @@
-//Difficulty_window.h
+//difficulty_window.h
 
 #include "Window.h"
 #include "Graph.h"
