@@ -30,7 +30,7 @@ struct Difficulty_window : Graph_lib::Window
 			Button* b12;
 			int difficulty;
 		//constants
-			const int win_width{600};
+			const int win_width{700};
 			const int win_height{500};
 		//functions
 			void set_difficulty(int n);
