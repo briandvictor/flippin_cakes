@@ -20,7 +20,10 @@ using namespace Graph_lib;
 						b7 = new Button{Point{350,300},50,50,"7",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(7);}};
 						b8 = new Button{Point{400,300},50,50,"8",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(8);}};
 						b9 = new Button{Point{450,300},50,50,"9",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(9);}};
-						attach(*b2);
+						b10 = new Button{Point{500,300},50,50,"10",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(7);}};
+						b11 = new Button{Point{550,300},50,50,"11",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(8);}};
+						b12 = new Button{Point{600,300},50,50,"12",[](Address,Address pw){reference_to<Difficulty_window>(pw).set_difficulty(9);}};
+					        attach(*b2);
 						attach(*b3);
 						attach(*b4);
 						attach(*b5);
@@ -28,6 +31,9 @@ using namespace Graph_lib;
 						attach(*b7);
 						attach(*b8);
 						attach(*b9);
+						attach(*b10);
+						attach(*b11);
+						attach(*b12);
         }
 
 //functions
