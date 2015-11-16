@@ -25,6 +25,9 @@ struct Difficulty_window : Graph_lib::Window
 			Button* b7;
 			Button* b8;
 			Button* b9;
+			Button* b10;
+			Button* b11;
+			Button* b12;
 			int difficulty;
 		//constants
 			const int win_width{600};
